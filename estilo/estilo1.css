@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	background-image: url("../imagem/livra.png");
+	background-repeat:no-repeat;
+	background-color: #ff525d;
+	background-size: 210px 210px;
+	width: 300px;
+	height: 200px;
+	border-width: 1px;
+	padding:5px;
+	border:1px solid #333;
+}
+
+#erro{
+
+width: 30px;
+height: 30px;
+border-width: 1px;
+
+}
+
+#topo {
+display: table;
+width: 100%;
+height: 40px;
+background-color:#ff525d;
+position: relative;
+}
+
+S
+h1{
+	text-align: center;
+	font-family: verdana;
+	font-size: 50px;
+	color: #fff763;
+}
+
+#imag{
+	 margin-left:27%;
+}
+
+.Menu{ 
+  background-color: #e0e0e0;
+  margin-left: 10%;
+  display: grid;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.minilivros{  
+  border-radius: 10px;
+  margin-top: 10px; 
+  margin-left: 10px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#centro {
+  margin-top: 2%;
+  margin-left:20%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%
+}
